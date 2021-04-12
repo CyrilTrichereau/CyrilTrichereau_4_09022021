@@ -81,6 +81,7 @@ a:hover {
 }
 
 .bloc-bg-texture::before {
+    height: 100%;
     content: "";
     background-size: 2px 2px;
     position: absolute;
@@ -88,6 +89,7 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: -1;
 }
 
 .texture-paper::before {
@@ -133,7 +135,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: white;
 }
 
 .d-bloc .a-btn:hover,
@@ -325,7 +327,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -477,6 +479,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: white!important;
 }
 
 .icon-lg {
@@ -526,7 +529,7 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
+    font-size: 1.6rem;
     opacity: 1;
 }
 
@@ -651,7 +654,8 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
+    font-size: 1.6rem;
 }
 
 .container {
@@ -669,7 +673,7 @@ a {
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 1.6rem;
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
@@ -677,7 +681,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.6rem;
 }
 
 .tight-width-whitespace {
@@ -704,13 +708,8 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
 h3 {
-    font-size: 15px;
+    font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -724,10 +723,16 @@ h3 {
 
 h1 {
     color: #333333!important;
+    font-size: 3.5rem!important;
+    font-weight: 600;
 }
 
 h4 {
     color: #333333!important;
+}
+
+em {
+    text-decoration: underline;
 }
 
 .icons {
@@ -737,6 +742,10 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+}
+
+.textFooter {
+    font-size: 1.8rem;
 }
 
 .portfolio-thumb {
@@ -753,7 +762,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(26, 23, 15, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,12 +784,14 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+    z-index: 9999!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    z-index: 10!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -811,6 +822,7 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+    z-index: -1;
 }
 
 .bg-lines-h2-bg {
@@ -819,11 +831,42 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    z-index: -5;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+blockquote p {
+    font-size: 2rem;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: -2rem;
+    color: black;
+}
+
+h2 {
+    font-size: 2.4rem!important;
+    z-index: 10!important;
+    font-weight: 600;
+}
+
+.philosophy {
+    color: white!important;
+    padding-bottom: 2rem;
+}
+
+.page-container {
+    z-index: 1;
+}
+
+.tittleContact {
+    margin-bottom: 3rem!important;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
