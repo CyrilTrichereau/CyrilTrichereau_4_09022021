@@ -135,7 +135,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: white;
+    color: black!important;
 }
 
 .d-bloc .a-btn:hover,
@@ -701,11 +701,11 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: black!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 1.8rem;
+    font-weight: 600;
 }
 
 .social {
@@ -795,7 +795,7 @@ em {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
     z-index: 10!important;
 }
 
@@ -921,6 +921,9 @@ h2 {
     margin-bottom: 3rem!important;
 }
 
+#bloc-8 p {
+    color: black!important;
+}
 
 @media (max-width: 1024px) {
     .bloc {
