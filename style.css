@@ -289,6 +289,11 @@ a:hover {
     font-size: 32px;
 }
 
+
+#bloc-1-hero {
+background-size: cover!important;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -837,6 +842,8 @@ em {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation425.jpg");
+    background-position: center!important;
+    background-size: cover!important;
 }
 
 /* 768px VERSION */
